@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDIK - Berbagi Pengetahuan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white min-h-screen flex flex-col font-sans antialiased">
+
+    <nav class="bg-[#3F2B1D] text-white py-4 px-6 md:px-16 flex justify-between items-center shadow-md z-20">
+        <div class="text-3xl font-bold tracking-widest">
+            SIDIK
+        </div>
+        
+        <div class="hidden md:flex space-x-8 text-sm font-medium opacity-90">
+            <a href="BukuPanduan.html" class="hover:text-amber-200 transition">Buku Panduan</a>
+            <a href="Pelatihan.html" class="hover:text-amber-200 transition">Pelatihan</a>
+            <a href="KlinikPengetahuan.html" class="hover:text-amber-200 transition">Klinik Pengetahuan</a>
+            <a href="BerbagiPengetahuan.html" class="text-amber-200 font-semibold">Berbagi Pengetahuan</a>
+        </div>
+
+        <div class="md:hidden cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </nav>
+
+    <main class="flex-grow flex flex-col items-center pt-6 pb-12 px-6 md:px-16 w-full relative">
+        
+        <div class="w-full max-w-6xl flex justify-end mb-2">
+            <a href="profil.html" class="bg-[#E4D5BE] hover:bg-[#D4C5A9] p-3 rounded-full shadow-md text-[#3F2B1D] transition flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:w-7 md:h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="w-full max-w-6xl flex items-center justify-center relative mb-8">
+            <a href="BerandaUtama.html" class="absolute left-0 text-[#4A3728] hover:text-[#3F2B1D] p-2 rounded-full hover:bg-gray-100 transition duration-200" title="Kembali ke Beranda">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-7 h-7 md:w-8 md:h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                </svg>
+            </a>
+
+            <h2 class="text-3xl md:text-4xl font-bold text-[#4A3728] tracking-wide text-center">
+                Kategori Pengetahuan
+            </h2>
+        </div>
+
+        <div class="w-full max-w-6xl space-y-6">
+            
+            <a href="kategori-haji.html" class="block w-full bg-[#E6D7C2] hover:bg-[#D9C9B3] py-5 px-8 rounded-2xl text-xl md:text-2xl font-medium text-[#4A3728] transition duration-200 transform hover:-translate-y-0.5 shadow-sm">
+                Haji dan Umrah
+            </a>
+
+            <a href="kategori-humas.html" class="block w-full bg-[#E6D7C2] hover:bg-[#D9C9B3] py-5 px-8 rounded-2xl text-xl md:text-2xl font-medium text-[#4A3728] transition duration-200 transform hover:-translate-y-0.5 shadow-sm">
+                Humas Level-Up
+            </a>
+
+            <a href="kategori-keagamaan.html" class="block w-full bg-[#E6D7C2] hover:bg-[#D9C9B3] py-5 px-8 rounded-2xl text-xl md:text-2xl font-medium text-[#4A3728] transition duration-200 transform hover:-translate-y-0.5 shadow-sm">
+                Keagamaan
+            </a>
+
+            <a href="kategori-pendidikan.html" class="block w-full bg-[#E6D7C2] hover:bg-[#D9C9B3] py-5 px-8 rounded-2xl text-xl md:text-2xl font-medium text-[#4A3728] transition duration-200 transform hover:-translate-y-0.5 shadow-sm">
+                Pendidikan
+            </a>
+
+        </div>
+    </main>
+
+</body>
+</html>

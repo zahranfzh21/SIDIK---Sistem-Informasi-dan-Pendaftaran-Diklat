@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDIK - Beranda Utama</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white min-h-screen flex flex-col font-sans antialiased">
+
+    <nav class="bg-[#3F2B1D] text-white py-4 px-6 md:px-16 flex justify-between items-center shadow-md z-20">
+        <div class="text-3xl font-bold tracking-widest">
+            SIDIK
+        </div>
+        
+        <div class="hidden md:flex space-x-8 text-sm font-medium opacity-90">
+            <a href="BukuPanduan.html" class="hover:text-amber-200 transition">Buku Panduan</a>
+            <a href="Pelatihan.html" class="hover:text-amber-200 transition">Pelatihan</a>
+            <a href="KlinikPengetahuan.html" class="hover:text-amber-200 transition">Klinik Pengetahuan</a>
+            <a href="BerbagiPengetahuan.html" class="hover:text-amber-200 transition">Berbagi Pengetahuan</a>
+        </div>
+
+        <div class="md:hidden cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </nav>
+
+    <div class="relative bg-gradient-to-r from-[#E2D5BC] via-[#D4C5A9] to-[#BCAE94] h-48 md:h-56 flex items-center justify-between px-6 md:px-16 overflow-hidden">
+        
+        <svg class="absolute inset-0 w-full h-full object-cover pointer-events-none" viewBox="0 0 1440 220" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#A8997F" d="M0,90 C360,180 720,80 1080,160 C1260,195 1380,180 1440,170 L1440,220 L0,220 Z" opacity="0.3"></path>
+            <path d="M0,40 Q400,160 900,20 T1440,70" fill="none" stroke="#FFF" stroke-width="2" opacity="0.25"></path>
+            <path d="M0,70 Q500,190 1100,50 T1440,100" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.15"></path>
+        </svg>
+
+        <h1 class="text-3xl md:text-5xl font-bold text-[#3F2B1D] tracking-wide z-10 select-none">
+            SELAMAT DATANG !
+        </h1>
+        <a href="profil.html" class="bg-[#E4D5BE] hover:bg-[#D4C5A9] p-3 rounded-full shadow-md text-[#3F2B1D] transition z-10 flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:w-7 md:h-7">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+    </svg>
+</a>
+    </div>
+
+    <main class="flex-grow px-6 md:px-16 py-10 max-w-7xl mx-auto w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            
+            <div class="bg-[#E6D7C2] p-6 rounded-2xl border border-[#D9C9B3] shadow-sm flex flex-col justify-between relative min-h-[200px]">
+                <div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#3F2B1D] leading-tight mb-4 tracking-tight">
+                        PENDIDIKAN INKLUSIF BERJENJANG TINGKAT DASAR
+                    </h3>
+                </div>
+                <div class="space-y-2 text-sm text-[#5A4533] font-medium">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                        <span>3.500 Peserta</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533] mt-0.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"/></svg>
+                        <div>
+                            <p>Pendaftaran : 15-25 Mei 2026</p>
+                            <p>Pelaksanaan : 10-15 Juni 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#E6D7C2] p-6 rounded-2xl border border-[#D9C9B3] shadow-sm flex flex-col justify-between relative min-h-[200px]">
+                <div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#3F2B1D] leading-tight mb-4 tracking-tight">
+                        PEMAHAMAN KONSEP GENDER DALAM ISLAM
+                    </h3>
+                </div>
+                <div class="space-y-2 text-sm text-[#5A4533] font-medium">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                        <span>1.000 Peserta</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533] mt-0.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"/></svg>
+                        <div>
+                            <p>Pendaftaran : 16-20 Mei 2026</p>
+                            <p>Pelaksanaan : 02-08 Juli 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#E6D7C2] p-6 rounded-2xl border border-[#D9C9B3] shadow-sm flex flex-col justify-between relative min-h-[200px] overflow-hidden">
+                <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    <div class="border-[5px] border-red-600 text-red-600 font-black text-4xl tracking-widest px-6 py-2 rounded-xl uppercase transform -rotate-12 bg-[#E6D7C2]/40 backdrop-blur-[0.5px]">
+                        SELESAI
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#3F2B1D] leading-tight mb-4 tracking-tight">
+                        TEKNIS KINERJA
+                    </h3>
+                </div>
+                <div class="space-y-2 text-sm text-[#5A4533] font-medium opacity-60">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                        <span>750 Peserta</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533] mt-0.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"/></svg>
+                        <div>
+                            <p>Pendaftaran : 01-04 Maret 2026</p>
+                            <p>Pelaksanaan : 10-15 April 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#E6D7C2] p-6 rounded-2xl border border-[#D9C9B3] shadow-sm flex flex-col justify-between relative min-h-[200px]">
+                <div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#3F2B1D] leading-tight mb-4 tracking-tight">
+                        IMPLEMENTASI KURIKULUM MERDEKA PADA MADRASAH
+                    </h3>
+                </div>
+                <div class="space-y-2 text-sm text-[#5A4533] font-medium">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                        <span>2.400 Peserta</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533] mt-0.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"/></svg>
+                        <div>
+                            <p>Pendaftaran : 10-20 Mei 2026</p>
+                            <p>Pelaksanaan : 21-25 Juni 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#E6D7C2] p-6 rounded-2xl border border-[#D9C9B3] shadow-sm flex flex-col justify-between relative min-h-[200px] overflow-hidden">
+                <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    <div class="border-[5px] border-red-600 text-red-600 font-black text-4xl tracking-widest px-6 py-2 rounded-xl uppercase transform -rotate-12 bg-[#E6D7C2]/40 backdrop-blur-[0.5px]">
+                        SELESAI
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#3F2B1D] leading-tight mb-4 tracking-tight">
+                        LITERASI DIGITAL UNTUK PNS KEMENAG
+                    </h3>
+                </div>
+                <div class="space-y-2 text-sm text-[#5A4533] font-medium opacity-60">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                        <span>2.000 Peserta</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533] mt-0.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"/></svg>
+                        <div>
+                            <p>Pendaftaran : 21-25 Februari 2026</p>
+                            <p>Pelaksanaan : 05-08 Maret 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#E6D7C2] p-6 rounded-2xl border border-[#D9C9B3] shadow-sm flex flex-col justify-between relative min-h-[200px] overflow-hidden">
+                <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    <div class="border-[5px] border-red-600 text-red-600 font-black text-4xl tracking-widest px-6 py-2 rounded-xl uppercase transform -rotate-12 bg-[#E6D7C2]/40 backdrop-blur-[0.5px]">
+                        SELESAI
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg md:text-xl font-bold text-[#3F2B1D] leading-tight mb-4 tracking-tight">
+                        TUGAS DAN FUNGSI PENGHULU
+                    </h3>
+                </div>
+                <div class="space-y-2 text-sm text-[#5A4533] font-medium opacity-60">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                        <span>1.250 Peserta</span>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <svg class="w-5 h-5 text-[#5A4533] mt-0.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"/></svg>
+                        <div>
+                            <p>Pendaftaran : 01-04 Maret 2026</p>
+                            <p>Pelaksanaan : 10-15 Juni 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
